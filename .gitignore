@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Data — raw transaction data must NEVER be committed (privacy + 150MB size)
+data/raw/
+data/partitions/
+data/global_test.csv
+*.csv
+
+# Experiments / checkpoints
+mlruns/
+wandb/
+experiments/
+checkpoints/
+*.safetensors
+
+# Secrets
+.env
+kaggle.json
+
+# Frontend
+dashboard/node_modules/
+dashboard/dist/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
