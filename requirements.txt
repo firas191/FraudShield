@@ -18,6 +18,7 @@ safetensors>=0.4,<1
 
 # --- Backend / Server ---
 fastapi>=0.110,<1
+python-multipart>=0.0.9,<1    # FastAPI Form/UploadFile (weight submission endpoint)
 uvicorn[standard]>=0.29,<1
 pydantic>=2.6,<3
 pydantic-settings>=2.2,<3
